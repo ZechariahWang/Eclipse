@@ -1,8 +1,8 @@
 ![210ZLogo](https://github.com/user-attachments/assets/55f1d4ad-ac78-4a7d-ac7d-db3658863015)
 
-# Eclipse 2023-2024 Library
+# Eclipse 2021-2024 Library
 
-Code Framework developed by 210Z during the 2023-2024 Vex Robotics Competition garnered throughout three years of development.
+Autonomous Code framework developed by 210Z. 
 
 - Div Top 16 World Championships
 - 7x World Championship Qualified
