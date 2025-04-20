@@ -4,6 +4,9 @@
 
 Autonomous Code framework developed by 210Z. 
 
+Algorithm Simulations: https://github.com/ZechariahWang/Eclipse-MotionAlgorithm_Simulations
+Team Tracker: https://github.com/ZechariahWang/TeamProfiler
+
 - Div Top 16 World Championships
 - 7x World Championship Qualified
 - 7x Regional Tournament Champions
@@ -14,7 +17,7 @@ Autonomous Code framework developed by 210Z.
 - 2x Excellence Award
 - 1x Think Award
 - Western Mechatronics 2024 Excellence in Programming Award
-- Calgary Stampede Agriculture Technology 2nd Place 
+- Calgary Stampede Agriculture Technology 2nd Place
 
 Contains Proportional Integral Derivative (PID) Controllers, Feedback Control MTP and MTRP, Kalman Filters, Bezier Curve Path Planners, Pure Pursuit Path Trackers, PID Constant Tuners, Odometry Position Localization, Holomonic Feedback Control MTP, Linear Motion Profilers with Inverse Kinematics, LVGL Integrated Graphics, Autonomous Selector, Metrics Modular Control.
 
