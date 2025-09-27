@@ -39,12 +39,16 @@ Technical specifications include:
 - Full-stack team tracker web application using React, Express, Node, and MongoDB for scouting opponent statistics
 
 
-## Project Usage
-1: Install the package from this repository using ```git clone https://github.com/ZechariahWang/Eclipse-Robot_framework.git```
+## Framework Usage
+1: Clone the repository using ```git clone https://github.com/ZechariahWang/Eclipse-Robot_framework.git```
 
-2: For autonomous control, there are three main components: PID Controller, Odometry Logic, and Algorithm Logic. These are all divided into their own seperate components within the project. Note that certain pieces of logic may require external module and utility functions.
+2: Prepare the VEX ARM-32 Cortex for firmware installation, and configure all robot components, including sensors, radios, etc. This may be done from the ```AssetConfig config``` class for motor and subsystem development.
 
-3: For LVGL Embedded System Graphics, all logic will be found in ```main.cpp``` in the ```initialize``` function. Note that declarations for specific components may be found in other project paths. The current setup of the interface is in 4 components: Game, Sensor, Auton, Misc. Each section displays data about its corresponding section but may connect to other project parts. The biggest notable example of this is the autonomous selector.
+2: For autonomous control, there are three primary subsections: chassis, modules, and operation systems. These are all divided into their own separate components within the project. Note that certain pieces of logic may require an external module and utility functions, so modifying or customizing logic pieces must be accounted for in the corresponding modules.
+
+3: For LVGL Embedded System Graphics, all logic will be found in ```main.cpp``` or ```Modules/MetricsReturnModule.cpp```. Note that declarations for specific components may be found in other project paths. The current setup of the interface consists of four components: Game, Sensor, Auton, and Misc. Each section displays data about its corresponding section, but may connect to other project parts. The biggest notable example of this is the autonomous selector. 
+
+4: For individual script development, you may either use the Python AI simulations found below, manually input points via trial and error, or preplot routes in real time. The paths used by 210Z are left as templates for how a typical script may be structured. These can be found in ```src/Scripts```.
 
 Library in use: https://www.youtube.com/@zechariah1204
 
