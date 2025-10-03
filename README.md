@@ -26,7 +26,7 @@ Technical specifications include:
 - Minimal Feedback Control "Approach target position" and "Approach target reference and position" algorithms in the case minimal localization is available
 - Odometry Position Localization
 - GPS Position Localization
-- Scalar Kalman Filters for situations in which obstacles, in which sensor readings may fluctuate and unaccounted forces are introduced
+- Scalar Kalman Filters
 - Bezier Curve generators for path-planning,
 - Pure Pursuit Motion Planning for non-linear movements,
 - PID Constant Tuners for operator ease
