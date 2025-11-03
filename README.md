@@ -53,6 +53,7 @@ Technical specifications include:
 Library in use: https://www.youtube.com/@zechariah1204
 
 Algorithm Simulations: https://github.com/ZechariahWang/Eclipse-MotionAlgorithm_Simulations
+
 ROS2 Sims: https://github.com/ZechariahWang/Eclipse-ROS2-Sims
 
 Team Tracker: https://github.com/ZechariahWang/TeamProfiler
